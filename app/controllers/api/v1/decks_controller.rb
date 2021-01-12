@@ -1,4 +1,4 @@
-class DecksController < ApplicationController
+class Api::V1::DecksController < ApplicationController
 
 before_action :valid_user
 
